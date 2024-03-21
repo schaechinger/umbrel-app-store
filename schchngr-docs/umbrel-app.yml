@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: schchngr-docs
+name: SDocs
+tagline: Document and invoicing platform
+icon: https://docs.schaechinger.com/icons/logo.svg
+category: files
+version: "2.6.0"
+port: 5211
+description: >-
+  SDocs is build for easy invoicing for freelancers.
+
+  You can also generate letters in German format as well as add Internetmarke
+  stamps to it in order to send them right away via Deutsche Post.
+
+developer: Manuel Schächinger
+website: https://www.schaechinger.com
+submitter: Manuel Schächinger
+submission: https://github.com/schaechinger/umbrel-app-store
+repo: https://github.com/schaechinger/docs
+support: https://github.com/schaechinger/docs/issues
+gallery:
+releaseNotes: >-
+  Local SDocs as a single user version.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
