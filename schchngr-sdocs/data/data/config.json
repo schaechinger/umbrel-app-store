@@ -1,36 +1,65 @@
 {
+  "bank": {
+    "default": "bank",
+    "bank": {
+      "label": "Standardbank",
+      "name": "Meine Bank",
+      "iban": "DEXX 0000 0000 0000 0000 00",
+      "bic": "XXXXDEX1"
+    }
+  },
+  "meta": {
+    "sender": {
+      "de": [
+        "Gast Nutzer",
+        "Marienplatz 1",
+        "80331 München"
+      ]
+    },
+    "contact": {
+      "mail": "mail@example.com",
+      "phone": "+49 160 123456789"
+    }
+  },
+  "tax": {
+    "stnr": "000/000/00000",
+    "ustid": "DE123456789",
+    "salesTax": 19
+  },
   "style": {
     "date": "long",
     "color": "#000000",
-    "printName": false,
-    "printText": true,
+    "printName": true,
     "headerSeparator": true,
     "logo": false,
     "printable": false
   },
   "features": {
-    "admin": false,
+    "admin": true,
     "letter": true,
     "settings": true,
     "internetmarke": false,
-    "invoice": false,
-    "reminder": false
+    "invoice": true,
+    "calendar": true,
+    "reminder": true
   },
   "letter": {
-    "template": true,
+    "template": "5008B",
     "language": false,
     "greetings": "mfg",
-    "printable": 1,
-    "business": 1,
-    "duplex": false
+    "printable": 2,
+    "business": 2,
+    "duplex": true
   },
   "invoice": {
-    "types": [],
+    "types": [
+      "schchngr"
+    ],
     "subject": "Rechnung [Rechnungsnummer]",
     "profession": "",
     "showCopy": false,
     "dueDays": 30,
-    "customerBound": false,
-    "girocode": false
+    "customerBound": true,
+    "girocode": true
   }
 }
