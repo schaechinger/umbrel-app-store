@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: schchngr-sdocs_web_1
+      APP_PORT: 11000
+
+  web:
+    image: ghcr.io/schaechinger/docs:master
+    user: "1000:1000"
+    ports:
+      - "11000:3000"
+    restart: on-failure
+    stop_grace_period: 1m
+    volumes:
+      - ${APP_DATA_DIR}/config:/usr/src/app/config
+      - ${APP_DATA_DIR}/data:/usr/src/app/data
+      - ${APP_DATA_DIR}/fonts:/usr/src/app/fonts

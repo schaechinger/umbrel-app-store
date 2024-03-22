@@ -1,0 +1,58 @@
+{
+  "bank": {
+    "default": "bank",
+    "bank": {
+      "label": "Standardbank",
+      "name": "Meine Bank",
+      "iban": "DEXX 0000 0000 0000 0000 00",
+      "bic": "XXXXDEX1"
+    }
+  },
+  "meta": {
+    "sender": {
+      "de": [
+        "Vorname Nachname",
+        "Marienplatz 1",
+        "80033 München"
+      ]
+    },
+    "contact": {
+      "mail": "mail@example.com",
+      "phone": "+49 160 123456789"
+    }
+  },
+  "tax": {
+    "stnr": "000/000/00000",
+    "uid": "DE123456789",
+    "salesTax": 19
+  },
+  "style": {
+    "printName": true,
+    "printText": false,
+    "headerSeparator": false,
+    "logo": {
+      "x": 0,
+      "y": 1,
+      "width": 25
+    },
+    "printable": true
+  },
+  "features": {
+    "admin": true,
+    "invoice": true,
+    "internetmarke": true,
+    "quotation": true,
+    "calendar": true,
+    "reminder": true
+  },
+  "letter": {
+    "template": "5008B",
+    "greetings": ""
+  },
+  "invoice": {
+    "types": [
+      "schchngr"
+    ],
+    "subject": "Rechnung: [Rechnungsnummer]"
+  }
+}

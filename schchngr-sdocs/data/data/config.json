@@ -1,0 +1,36 @@
+{
+  "style": {
+    "date": "long",
+    "color": "#000000",
+    "printName": false,
+    "printText": true,
+    "headerSeparator": true,
+    "logo": false,
+    "printable": false
+  },
+  "features": {
+    "admin": false,
+    "letter": true,
+    "settings": true,
+    "internetmarke": false,
+    "invoice": false,
+    "reminder": false
+  },
+  "letter": {
+    "template": true,
+    "language": false,
+    "greetings": "mfg",
+    "printable": 1,
+    "business": 1,
+    "duplex": false
+  },
+  "invoice": {
+    "types": [],
+    "subject": "Rechnung [Rechnungsnummer]",
+    "profession": "",
+    "showCopy": false,
+    "dueDays": 30,
+    "customerBound": false,
+    "girocode": false
+  }
+}

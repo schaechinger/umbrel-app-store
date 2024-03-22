@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="glyphicons-basic"
+   viewBox="0 0 32 32"
+   version="1.1"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="36.40625"
+     inkscape:cx="17.387124"
+     inkscape:cy="14.461803"
+     inkscape:window-width="2560"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="glyphicons-basic" />
+  <path
+     id="book-library"
+     d="M18,4H13a1,1,0,0,0-1,1V27a1,1,0,0,0,1,1h5a1,1,0,0,0,1-1V5A1,1,0,0,0,18,4ZM17,25.5a.5.5,0,0,1-.5.5h-2a.5.5,0,0,1-.5-.5v-1a.5.5,0,0,1,.5-.5h2a.5.5,0,0,1,.5.5Zm0-18a.5.5,0,0,1-.5.5h-2a.5.5,0,0,1-.5-.5v-1a.5.5,0,0,1,.5-.5h2a.5.5,0,0,1,.5.5ZM27.03668,4.55933a1,1,0,0,0-1.15845-.81116l-4.924.86822a1,1,0,0,0-.81115,1.15845l3.82025,21.66577a.99991.99991,0,0,0,1.15845.81116l4.924-.86823a.9999.9999,0,0,0,.81115-1.15844Zm1.18463,21.11511-1.96966.34729a.50009.50009,0,0,1-.57923-.40558l-.17364-.9848a.5.5,0,0,1,.40558-.57923l1.96966-.34735a.50009.50009,0,0,1,.57923.40558l.17364.98486A.50008.50008,0,0,1,28.22131,25.67444ZM9,4H4A1,1,0,0,0,3,5V27a1,1,0,0,0,1,1H9a1,1,0,0,0,1-1V5A1,1,0,0,0,9,4ZM8,25.5a.5.5,0,0,1-.5.5h-2a.5.5,0,0,1-.5-.5v-1a.5.5,0,0,1,.5-.5h2a.5.5,0,0,1,.5.5Zm0-18a.5.5,0,0,1-.5.5h-2A.5.5,0,0,1,5,7.5v-1A.5.5,0,0,1,5.5,6h2a.5.5,0,0,1,.5.5Z"
+     style="fill:#00a5db;fill-opacity:1" />
+</svg>

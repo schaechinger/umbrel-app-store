@@ -1,11 +1,11 @@
 manifestVersion: 1
-id: schchngr-docs
-name: SDocs
-tagline: Document and invoicing platform
-icon: https://docs.schaechinger.com/icons/logo.svg
+id: schchngr-sdocs
+name: SDocs.
+tagline: Letter and invoicing tool
+icon: logo.svg
 category: files
-version: "2.6.0"
-port: 5211
+version: "2.5.1"
+port: 11000
 description: >-
   SDocs is build for easy invoicing for freelancers.
 
