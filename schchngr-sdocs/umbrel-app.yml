@@ -1,8 +1,8 @@
 manifestVersion: 1
 id: schchngr-sdocs
-name: SDocs.
+name: SDocs
 tagline: Letter and invoicing tool
-icon: logo.svg
+icon: https://raw.githubusercontent.com/schaechinger/umbrel-app-store/master/schchngr-sdocs/logo.svg
 category: files
 version: "2.5.1"
 port: 11000
@@ -18,7 +18,7 @@ submitter: Manuel Schächinger
 submission: https://github.com/schaechinger/umbrel-app-store
 repo: https://github.com/schaechinger/docs
 support: https://github.com/schaechinger/docs/issues
-gallery:
+gallery: []
 releaseNotes: >-
   Local SDocs as a single user version.
 dependencies: []
