@@ -10,16 +10,9 @@
   },
   "meta": {
     "sender": {
-      "de": [
-        "Gast Nutzer",
-        "Marienplatz 1",
-        "80331 München"
-      ]
+      "de": []
     },
-    "contact": {
-      "mail": "mail@example.com",
-      "phone": "+49 160 123456789"
-    }
+    "contact": {}
   },
   "tax": {
     "stnr": "000/000/00000",
