@@ -12,6 +12,6 @@ services:
     restart: on-failure
     stop_grace_period: 1m
     volumes:
-      - ${APP_DATA_DIR}/config:/usr/src/app/config
-      - ${APP_DATA_DIR}/data:/usr/src/app/data
-      - ${APP_DATA_DIR}/fonts:/usr/src/app/fonts
+      - ${APP_DATA_DIR}/data/config:/usr/src/app/config
+      - ${APP_DATA_DIR}/data/data:/usr/src/app/data
+      - ${APP_DATA_DIR}/data/fonts:/usr/src/app/fonts
