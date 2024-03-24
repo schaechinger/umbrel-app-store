@@ -4,7 +4,7 @@ name: SDocs
 tagline: Letter and invoicing tool
 icon: https://raw.githubusercontent.com/schaechinger/umbrel-app-store/master/schchngr-sdocs/logo.svg
 category: files
-version: "2.5.2"
+version: "2.5.3"
 port: 11000
 description: >-
   SDocs is build for easy invoicing for freelancers.
@@ -20,7 +20,7 @@ repo: https://github.com/schaechinger/docs
 support: https://github.com/schaechinger/docs/issues
 gallery: []
 releaseNotes: >-
-  Local SDocs as a single user version.
+  Improved offline capability of the app, updated logo display methods
 dependencies: []
 path: ""
 defaultUsername: ""
