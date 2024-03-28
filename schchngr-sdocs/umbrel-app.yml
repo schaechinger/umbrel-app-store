@@ -1,16 +1,17 @@
 manifestVersion: 1
 id: schchngr-sdocs
-name: SDocs
-tagline: Brief- und Rechnungsmanagement
+name: SDocs.
+tagline: Brief- und Rechnungsmanagement auf dem Umbrel.
 icon: https://raw.githubusercontent.com/schaechinger/umbrel-app-store/master/schchngr-sdocs/logo.svg
 category: files
-version: "2.6.0-beta"
+version: "2.6.0-beta.1"
 port: 11000
 description: >-
-  SDocs is build for easy invoicing for freelancers.
+  SDocs ist für einfache Rechnungserstellung für Freelancer gedacht.
 
-  You can also generate letters in German format as well as add Internetmarke
-  stamps to it in order to send them right away via Deutsche Post.
+  Du kannst neben Rechnungen auch Briefe nach DIN5008 verfassen und
+  Internetmarken der Deutschen Post hinzufügen, um das Dokument direkt zu
+  versenden.
 
 developer: Manuel Schächinger
 website: https://www.schaechinger.com
@@ -20,7 +21,7 @@ repo: https://github.com/schaechinger/docs
 support: https://github.com/schaechinger/docs/issues
 gallery: []
 releaseNotes: >-
-  Improved offline capability of the app, updated logo display methods
+  Es gibt ein neues Widget mit einer Rechnungsübersicht
 widgets:
   - id: "invoice-stats"
     type: "four-stats"
