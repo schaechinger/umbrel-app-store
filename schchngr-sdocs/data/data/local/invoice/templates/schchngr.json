@@ -1,0 +1,101 @@
+{
+  "label": "Dienstleistung",
+  "invoicePrefix": "",
+  "meta": {
+    "period": "",
+    "girocode": true,
+    "language": "de",
+    "format": "5008B",
+    "dueDays": 0
+  },
+  "service": {
+    "columns": [
+      "position",
+      "service",
+      "count",
+      "unit",
+      "price",
+      "total"
+    ],
+    "edit": [
+      "date",
+      "count",
+      "description",
+      "service"
+    ],
+    "labels": [
+      "Pos",
+      "Leistung",
+      "Anzahl",
+      "",
+      "Einzelpreis",
+      "Betrag"
+    ],
+    "align": [
+      "left",
+      "left",
+      "right",
+      "left",
+      "right",
+      "right"
+    ],
+    "width": [
+      7,
+      42,
+      10,
+      7,
+      16,
+      18
+    ]
+  },
+  "story": {
+    "pts": {
+      "columns": [
+        "position",
+        "service",
+        "count",
+        "total"
+      ],
+      "labels": [
+        "Pos",
+        "Leistung",
+        "Punkte",
+        "Betrag"
+      ],
+      "width": []
+    },
+    "unit": {
+      "columns": [
+        "position",
+        "service",
+        "count",
+        "unit",
+        "price",
+        "total"
+      ],
+      "labels": [
+        "Pos",
+        "Leistung",
+        "Anzahl",
+        "",
+        "Einzelbetrag",
+        "Betrag"
+      ]
+    }
+  },
+  "hours": {
+    "title": "Leistungsbeschreibung",
+    "columns": [
+      "date",
+      "count",
+      "unit",
+      "description"
+    ],
+    "labels": [
+      "Datum",
+      "Stunden",
+      "",
+      "Beschreibung"
+    ]
+  }
+}
