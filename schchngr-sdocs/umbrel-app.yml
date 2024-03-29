@@ -3,7 +3,7 @@ id: schchngr-sdocs
 name: SDocs.
 tagline: Brief- und Rechnungsmanagement auf dem Umbrel.
 icon: https://raw.githubusercontent.com/schaechinger/umbrel-app-store/master/schchngr-sdocs/logo.svg
-category: files
+category: Files
 version: "2.6.0-beta.3"
 port: 11000
 description: >-
