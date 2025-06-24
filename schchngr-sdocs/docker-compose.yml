@@ -7,7 +7,7 @@ services:
       APP_PORT: 11000
 
   server:
-    image: ghcr.io/schaechinger/docs:latest@sha256:d04ce0d8d6fb3437a21e1b0ea6ab086a4f445860e681d3ab29a7b2475956f88a
+    image: ghcr.io/schaechinger/docs:latest@sha256:1f8017908c8c44939182c0f61a788b7af81b55a3b5d64246706ff37fc38fae36
     user: "1000:1000"
     restart: on-failure
     stop_grace_period: 1m
