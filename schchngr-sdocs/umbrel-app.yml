@@ -4,7 +4,7 @@ name: SDocs.
 tagline: Brief- und Rechnungsmanagement auf dem Umbrel.
 icon: https://raw.githubusercontent.com/schaechinger/umbrel-app-store/master/schchngr-sdocs/logo.svg
 category: files
-version: "2.6.1"
+version: "2.6.2"
 port: 11000
 description: >-
   SDocs ist für einfache Rechnungserstellung für Freelancer gedacht.
@@ -18,7 +18,7 @@ website: https://www.schaechinger.com
 submitter: Manuel Schächinger
 gallery: []
 releaseNotes: >-
-  - Blankorechnungen haben mehr Platz für Leistungen
+  SDocs. wird regelmäßig aktualisiert, um neue Funktionen und Verbesserungen zu integrieren.
 widgets:
   - id: "invoice-stats"
     type: "four-stats"
